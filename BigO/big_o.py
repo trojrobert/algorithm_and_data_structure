@@ -1,15 +1,16 @@
 import time 
 
-nemo = ['nemo'] * 100
+nemo = [ "century", "various", "tribes", "entered", "the", "nemo", "region", "from", "all", "directions", "From", "the", "16th", "century", "to", "the"]
 
 def find_nemo(array):
     t0 = time.time()
 
     for i in range(len(array)):
-
+        print(f"running")
         if array[i] == 'nemo':
 
             print("Found nemo")
+            break
 
     t1 = time.time()
 
