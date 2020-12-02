@@ -16,9 +16,9 @@ def reverse(string_item):
     backward_input = "".join(backward_input)
    
 
-    #return backward_input
+    return backward_input
 
-    return string_item[::-1]
+    #return string_item[::-1]
 
 
 if __name__ == "__main__":
